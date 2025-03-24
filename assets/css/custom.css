@@ -1,0 +1,45 @@
+.post-image {
+    border: 1px solid black;
+}
+
+/* MacOS 스타일 상단 버튼: div.highlight에만 적용 */
+/* 바깥 전체 컨테이너 */
+div.highlight {
+    background: #2e2e2e;
+    border-radius: 10px;
+    overflow: hidden; /* 상단 바 둥글게 */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    font-size: 0.95em;
+  }
+  
+  /* 상단 macOS 스타일 바 */
+  div.highlight::before {
+    content: '';
+    display: block;
+    background: #3c3c3c;
+    height: 30px;
+    position: relative;
+  }
+  
+  /* 버튼들 */
+  div.highlight::after {
+    content: '🔴🟡🟢';
+    font-family: Monaco,Consolas,"Lucida Console",monospace;
+    font-size: 13px;
+    position: absolute;
+    top: 6px;
+    left: 12px;
+    letter-spacing: 2px;
+  }
+  
+  /* 코드 영역 */
+  div.highlight > pre {
+    margin: 0;
+    padding: 1em;
+    background: none;
+    font-size: 14px;
+  }
+  
+
+
+  

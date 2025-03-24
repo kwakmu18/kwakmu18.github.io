@@ -1,0 +1,19 @@
+# main links
+main:
+  - title: "Home"
+    url: /
+  - title: "Portfolio"
+    url: /portfolio
+  - title: "Github"
+    url: "https://github.com/kwakmu18"
+docs:
+  - title: "Windows Internals"
+    children:
+      - title: "시스템 아키텍처"
+        url: "/categories/시스템-아키텍처"
+      - title: "프로세스와 잡"
+        url: "/categories/프로세스와-잡"
+  - title: "Tips"
+    children:
+      - title: "WinDbg"
+        url: "/categories/windbg"
