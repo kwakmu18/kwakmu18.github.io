@@ -4,7 +4,7 @@ title: "Portfolio"
 permalink: /portfolio
 author_profile: true
 types: pages
-last_modified_at: 2025-03-22
+last_modified_at: 2025-03-26
 ---
 
 <div style="display: flex; gap: 80px;">
@@ -19,7 +19,7 @@ last_modified_at: 2025-03-22
         <br>
         울산대학교 IT융합학부 학술 동아리 <u><a target="_blank" href="https://uou-unknown.com">UNKNOWN</a></u> (2022 ~ 2025)
         <br><br>
-        차세대 보안리더 양성 프로그램 <b>Best of the Best 13th</b> 취약점분석 트랙
+        차세대 보안리더 양성 프로그램 <b>Best of the Best 13th</b> 취약점분석 트랙 <b>TOP 10</b>
         <br><br>
         관심 분야 :
         <br>
@@ -122,7 +122,7 @@ last_modified_at: 2025-03-22
 
 ### 🏆 Prize
 ---
-
+- 2025 차세대 보안리더 양성 프로그램 Best of the Best 13기 **<u>TOP 10</u>** - 과학기술정보통신부, 한국정보기술연구원(KITRI)
 - 2024 울산 모의해킹 대회 **<u>장려상</u>** - 울산정보산업진흥원, 울산정보보호지원센터
 - 2024 졸업작품 경진대회 **<u>우수상</u>** - 울산대학교 IT융합학부 (무선 네트워크 시각화 및 프로토콜 추가 구현)
 - 2024 차세대 보안리더 양성 프로그램 화이트햇 스쿨 1기 **<u>TOP 20</u>** - 과학기술정보통신부, 한국정보기술연구원(KITRI)
