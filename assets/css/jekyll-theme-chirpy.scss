@@ -1,0 +1,21 @@
+---
+---
+
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+* {
+  word-break: keep-all !important;
+}
+
+.post-image {
+  border: 1px solid black;
+}
+
+.is-collapsed {
+  max-height: none !important;
+}
