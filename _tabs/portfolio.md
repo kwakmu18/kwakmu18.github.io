@@ -735,14 +735,12 @@ order: 4
 </style>
 
 <script>
-    // 오버레이 요소 가져오기
 
     const popupOverlay = document.getElementById('popupOverlay');
     const popupTitle = document.getElementById('popupTitle');
     const popupText = document.getElementById('popupText');
     const closePopupBtn = document.querySelector('.closePopupBtn');
 
-    // 모든 팝업 열기 버튼에 이벤트 설정
 
     document.querySelectorAll('.openPopupBtn').forEach(btn => {
     btn.addEventListener('click', function(){
@@ -758,15 +756,11 @@ order: 4
     });
     });
 
-    // 팝업 닫기 버튼 이벤트
-
     closePopupBtn.addEventListener('click', function(){
     popupOverlay.style.display = 'none';
     document.body.style.overflow = 'auto';
     });
 
-    // 오버레이 바깥 클릭하면 닫기
-    
     popupOverlay.addEventListener('click', function(e){
     if(e.target === popupOverlay){
         popupOverlay.style.display = 'none';
