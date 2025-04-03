@@ -129,6 +129,9 @@ div[class^='language-'] {
       @include mx.ml-mr(0);
 
       $dot-margin: 1rem;
+      background: var(--language-header-color);
+      border-top-left-radius: 0.5rem;
+      border-top-right-radius: 0.5rem;
 
       &::before {
         content: '';
@@ -137,11 +140,11 @@ div[class^='language-'] {
         width: v.$code-dot-size;
         height: v.$code-dot-size;
         border-radius: 50%;
-        background-color: var(--code-header-muted-color);
+        background-color: #fc625d; //var(--code-header-muted-color);
         box-shadow: (v.$code-dot-size + v.$code-dot-gap) 0 0
-            var(--code-header-muted-color),
+        #fdbc40,//var(--code-header-muted-color),
           (v.$code-dot-size + v.$code-dot-gap) * 2 0 0
-            var(--code-header-muted-color);
+          #35cd4b;//var(--code-header-muted-color);
       }
 
       span {
