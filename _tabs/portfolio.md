@@ -465,7 +465,7 @@ order: 4
                 <img src="/assets/img/portfolio/visualize-1.png" class="project-text-img">
                 <li>선택한 노드에 대한 정보와, 센서의 경우 최근 측정된 공기 데이터 표시(PRR은 패킷 수신률을 의미, 수신한 패킷/전체 패킷)</li>
                 <img src="/assets/img/portfolio/visualize-2.png" class="project-text-img-borderonly">
-                <li>Node에 대한 정보 입력 시 자동 컴파일/업로드</li>
+                <li>Node에 대한 정보 입력 시 자동 컴파일/업로드</li><br>
                 <img src="/assets/img/portfolio/visualize-3.png" class="project-text-img-borderonly">
                 <li>선택한 Node에 대해 ON/OFF 버튼을 클릭하면, AP Node로 ON/OFF 여부 전송</li>
                 <li>AI 프로그램과 연계하여, TCP 통신을 통해 자동 ON/OFF 여부 수신 및 AP Node로 ON/OFF 데이터 전송</li>
