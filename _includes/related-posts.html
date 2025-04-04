@@ -16,7 +16,7 @@
 
       <div class="d-flex justify-content-between px-md-3">
         {% if post.url == page.url %} <b style="font-weight:900"> {% endif %}
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <a href="{{ post.url | relative_url }}">📄 {{ post.title }}</a>
         {% if post.url == page.url %} </b> {% endif %}
         <span class="dash flex-grow-1"></span>
         {% if post.url == page.url %} <b style="font-weight:900"> {% endif %}
