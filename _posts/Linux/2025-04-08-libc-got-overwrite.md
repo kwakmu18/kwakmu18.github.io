@@ -96,7 +96,7 @@ LEGEND: STACK | HEAP | CODE | DATA | WX | RODATA
     - 만약 `printf` 함수의 GOT가 `system` 함수의 주소로 조작되어 있다면? 실제로는 `system("/bin/sh")`가 호출되어 문자열을 출력하지 않고 셸을 실행하게 된다.
 
 ### libc GOT Overwrite?
-- 바이너리는 컴파일하면 기본적으로는 Full RELRO가 적용되므로 GOT 영역에 쓰기 권한이 없다. 하지만 libc 라이브러리는 checksec 유틸리티로 확인해보면 Partial RELRO가 적용되어 있는 것을 확인할 수 있다.
+- 바이너리는 컴파일하면 기본적으로는 Full RELRO가 적용되므로 GOT 영역에 쓰기 권한이 없다. 하지만 Ubuntu 22.04까지의 libc 라이브러리는 checksec 유틸리티로 확인해보면 Partial RELRO가 적용되어 있는 것을 확인할 수 있다.
 ```
 ❯ checksec /lib/x86_64-linux-gnu/libc.so.6
 [*] '/lib/x86_64-linux-gnu/libc.so.6'
