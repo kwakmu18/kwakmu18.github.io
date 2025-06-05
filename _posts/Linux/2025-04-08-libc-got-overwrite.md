@@ -2,7 +2,7 @@
 title:  "libc GOT overwrite"
 search: true
 categories: 
-  - Linux Userspace
+  - Linux Userland
 last_modified_at: 2025-04-08
 comments: true 
 published: true
