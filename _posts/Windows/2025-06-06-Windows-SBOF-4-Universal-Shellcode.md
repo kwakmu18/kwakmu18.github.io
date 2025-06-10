@@ -40,7 +40,7 @@ ntdll32!_IMAGE_DOS_HEADER
    +0x03c e_lfanew         : 0n248
 ```
 
-- `_IMAGE_OPTIONAL_HEADER`는 _IMAGE_NT_HEADERS`의 끝에 붙어 있다.
+- `_IMAGE_OPTIONAL_HEADER`는 `_IMAGE_NT_HEADERS`의 끝에 붙어 있다.
 ```
 0:018> dt _IMAGE_NT_HEADERS 76150000+f8
 ntdll32!_IMAGE_NT_HEADERS
