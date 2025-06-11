@@ -53,7 +53,7 @@ script_includes:
         </div>
       {% endif %}
 
-      <div class="d-flex justify-content-between">
+      
         <!-- author(s) -->
         <span>
           {% if page.author %}
@@ -80,7 +80,7 @@ script_includes:
           </em>
         </span>
 
-        <div>
+        
           <!-- pageviews -->
           {% if site.pageviews.provider and site.analytics[site.pageviews.provider].id %}
             <span>
@@ -93,8 +93,8 @@ script_includes:
 
           <!-- read time -->
           {% include read-time.html content=content prompt=true lang=lang %}
-        </div>
-      </div>
+        
+      
     </div>
   </header>
 
