@@ -18,6 +18,8 @@ order: 4
         울산대학교 IT융합학부 학술 동아리 <u><a target="_blank" href="https://uou-unknown.com">UNKNOWN</a></u> (2022 ~ 2025)
         <br><br>
         차세대 보안리더 양성 프로그램 <b>Best of the Best 13th</b> 취약점분석 트랙 <b>TOP 10</b>
+        <br>
+        차세대 보안리더 양성 프로그램 <b>Whitehat School 1st TOP 20</b>
         <br><br>
         관심 분야 :
         <br>
@@ -40,7 +42,7 @@ order: 4
 
 <table frame=void class="project-table">
     <tr>
-        <td>
+        <td style="font-size: 16px; border-left: none; border-top: none; border-bottom: none; border-right: none;">
             <li>COM/RPC 기반 Windows 서비스 취약점 분석</li>
         </td>
         <td>
@@ -116,16 +118,19 @@ order: 4
 ### 📜 Vulnerability List
 ---
 
-- <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21374">CVE-2025-21374</a>: **Windows CSC Service Information Disclosure Vulnerability**
+- <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21374">`CVE-2025-21374`</a>: **Windows CSC Service Information Disclosure Vulnerability**
+- <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24069">`CVE-2025-24069`</a>: **Windows Storage Management Provider Information Disclosure Vulnerability**
+- <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-33055">`CVE-2025-33055`</a>: **Windows Storage Management Provider Information Disclosure Vulnerability**
 
 ### 🏆 Prize
 ---
-- 2025 차세대 보안리더 양성 프로그램 Best of the Best 13기 **<u>TOP 10</u>** - 과학기술정보통신부, 한국정보기술연구원(KITRI)
+- 2025 IT융합학부 알고리즘 경진대회 **<u>수상</u>** - 2025-1학기(최우수상)
+- 2025 차세대 보안리더 양성 프로그램 Best of the Best 13기 **<u>BEST 10</u>** - 과학기술정보통신부, 한국정보기술연구원(KITRI)
 - 2024 울산 모의해킹 대회 **<u>장려상</u>** - 울산정보산업진흥원, 울산정보보호지원센터
 - 2024 졸업작품 경진대회 **<u>우수상</u>** - 울산대학교 IT융합학부 (무선 네트워크 시각화 및 프로토콜 추가 구현)
 - 2024 차세대 보안리더 양성 프로그램 화이트햇 스쿨 1기 **<u>TOP 20</u>** - 과학기술정보통신부, 한국정보기술연구원(KITRI)
 - 2022~2023 울산대학교 **<u>학업성적우수상</u>** - 2023-2학기, 2023-1학기, 2022-2학기 (학점 4.5/4.5)
-- 2022~2023 IT융합학부 프로그래밍 경진대회 **<u>수상</u>** - 2023-2학기(2등), 2023-1학기(3등), 2022-2학기(1등), 2022-1학기(1등)
+- 2022~2023 IT융합학부 알고리즘 경진대회 **<u>수상</u>** - 2023-2학기(2등), 2023-1학기(3등), 2022-2학기(1등), 2022-1학기(1등)
 - 2022 파이썬 자기주도학습 경진대회 **<u>장려상</u>** - 울산대학교 메이커스페이스
 
 ### 🪪 Licenses
