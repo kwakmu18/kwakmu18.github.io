@@ -1,8 +1,7 @@
 ---
 title:  "Windows Stack Buffer Overflow 4 - Universal 셸코드 작성"
 search: true
-categories: 
-  - Windows Userland
+categories: ['Windows', 'Userland']
 last_modified_at: 2025-06-06
 comments: true 
 published: true

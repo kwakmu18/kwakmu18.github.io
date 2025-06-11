@@ -1,8 +1,7 @@
 ---
 title:  "[Dreamhack] Broken Dahun's Heart"
 search: true
-categories: 
-  - Linux Userland
+categories: ['Linux', 'Userland']
 last_modified_at: 2025-04-08
 comments: true 
 published: true
