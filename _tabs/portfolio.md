@@ -214,10 +214,12 @@ order: 4
             <ul>
                 <li>IDA, WinDbg 등 다양한 도구들을 활용한 서비스 정적 분석 및 동적 분석</li>
                 <li>kAFL을 이용한 서비스 대상 Fuzzing 및 Harness 작성</li>
-                <li><b>총 15건의 취약점 제보 → 1건의 Patch 대기 중, 1건의 CVE 발급</b></li>
-                <ul>
+                <li><b>총 15건의 취약점 제보 → 3건의 CVE 발급</b></li>
+                <ul><b>
                     <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21374">CVE-2025-21374</a></li>
-                </ul>
+                    <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24069">CVE-2025-24069</a></li>
+                    <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-33055">CVE-2025-33055</a></li>
+                </b></ul>
             </ul>
         </ul>
         <h2>산출물</h2>
@@ -226,10 +228,13 @@ order: 4
             <li>취약점 제보</li>
             <ul>
                 <li>38건의 취약점 탐지 및 MSRC 제보</li>
-                <li>4건의 Patch 대기 중</li>
-                <li>1건의 CVE 발급</li>
+                <li>5건의 CVE 발급</li>
                 <ul>
                     <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21374">CVE-2025-21374</a></li>
+                    <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24069">CVE-2025-24069</a></li>
+                    <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24068">CVE-2025-24068</a></li>
+                    <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24065">CVE-2025-24065</a></li>
+                    <li><a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-33055">CVE-2025-33055</a></li>
                 </ul>
             </ul>
             <li>오픈소스 기여</li>
