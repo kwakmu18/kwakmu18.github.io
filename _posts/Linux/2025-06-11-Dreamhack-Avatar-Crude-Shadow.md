@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] Avatar: Crude Shadow"
 search: true
-categories: ['Linux', 'Linux-Userland']
+categories: ['Linux', 'Dreamhack Wargame']
 last_modified_at: 2025-06-11
 comments: true 
 published: true

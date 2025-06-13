@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] Secure Service"
 search: true
-categories: ['Linux', 'Linux-Userland']
+categories: ['Linux', 'Dreamhack Wargame']
 last_modified_at: 2025-06-12
 comments: true 
 published: true

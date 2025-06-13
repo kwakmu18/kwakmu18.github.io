@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] NullNull"
 search: true
-categories: ['Linux', 'Linux-Userland']
+categories: ['Linux', 'Dreamhack Wargame']
 last_modified_at: 2025-04-25
 comments: true 
 published: true
