@@ -13,9 +13,9 @@ order: 4
         <h1> 곽무경 </h1>
         <u>양운고등학교</u> 졸업(2016.03 ~ 2019.02)
         <br>
-        <u>울산대학교 IT융합학부</u> 재학(2019.03 ~ 2025.08) (4.35/4.5)
+        <u>울산대학교 IT융합학부</u> 재학(2019.03 ~ 2025.08) (4.32/4.5)
         <br>
-        울산대학교 IT융합학부 학술 동아리 <u><a target="_blank" href="https://uou-unknown.com">UNKNOWN</a></u> (2022 ~ 2025)
+        울산대학교 IT융합학부 정보보안 동아리 <u><a target="_blank" href="https://uou-unknown.com">UNKNOWN</a></u> (2022 ~ 2025)
         <br><br>
         차세대 보안리더 양성 프로그램 <b>Best of the Best 13th</b> 취약점분석 트랙 <b>TOP 10</b>
         <br>
@@ -23,7 +23,7 @@ order: 4
         <br><br>
         관심 분야 :
         <br>
-        <b>Pwnable, Reversing, Windows OS Vulnerability Analysis</b>
+        <b>Pwnable, Reversing, Windows/Linux OS Vulnerability Analysis</b>
     </div>
 </div>
 
@@ -352,24 +352,14 @@ order: 4
             <li>학교 주요 웹 사이트들에 대한 모의 해킹을 수행</li>
             <li>아래 항목 식별 및 분석 보고서 작성</li>
                 <ul>
-                    <li>정보 누출</li>
-                    <li>XSS</li>
-                    <li>불충분한 인증</li>
-                    <li>취약한 패스워드 복구</li>
-                    <li>불충분한 인가</li>
-                    <li>세션 고정</li>
-                    <li>자동화 공격</li>
-                    <li>파일 업로드/다운로드</li>
+                    비공개
                 </ul>
         </ul>
         <h2>기여 내용</h2>
         <ul>
             <li>아래 항목들을 식별하여 분석에 기여(총 5건)</li>
             <ul>
-                <li>자동화 공격 1건</li>
-                <li>불충분한 인증 1건</li>
-                <li>불충분한 인가 2건</li>
-                <li>XSS 1건</li>
+                비공개
             </ul>
         </ul>
         <h2>산출물</h2>
