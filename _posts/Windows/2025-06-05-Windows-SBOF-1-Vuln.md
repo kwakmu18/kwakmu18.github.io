@@ -1,7 +1,7 @@
 ---
 title:  "Windows Stack Buffer Overflow 1 - 취약점 확인"
 search: true
-categories: ['Windows', 'Windows-Userland']
+categories: ['Windows', 'Windows Userland']
 last_modified_at: 2025-06-05
 comments: true 
 published: true

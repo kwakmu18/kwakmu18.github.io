@@ -1,7 +1,7 @@
 ---
-title:  "핵심 시스템 컴포넌트 - 1"
+title:  "[시스템 아키텍처] 핵심 시스템 컴포넌트 - 1"
 search: true
-categories: [Windows Internals, 시스템 아키텍처]
+categories: [Windows, Windows Internals]
 last_modified_at: 2025-04-06
 comments: true 
 ---

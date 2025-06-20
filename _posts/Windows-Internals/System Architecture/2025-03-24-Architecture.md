@@ -1,7 +1,7 @@
 ---
-title:  "윈도우 OS 아키텍처 개요"
+title:  "[시스템 아키텍처] 윈도우 OS 아키텍처 개요"
 search: true
-categories: [Windows Internals, 시스템 아키텍처]
+categories: [Windows, Windows Internals]
 last_modified_at: 2025-03-24
 comments: true 
 ---

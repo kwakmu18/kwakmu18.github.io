@@ -1,7 +1,7 @@
 ---
-title:  "프로세스 생성"
+title:  "[프로세스와 잡] 프로세스 생성"
 search: true
-categories: [Windows Internals, 프로세스와 잡]
+categories: [Windows, Windows Internals]
 last_modified_at: 2025-03-17
 comments: true 
 ---

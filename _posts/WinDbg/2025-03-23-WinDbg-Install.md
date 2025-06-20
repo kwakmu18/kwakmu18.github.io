@@ -1,8 +1,7 @@
 ---
 title:  "WinDbg 설치"
 search: true
-categories: 
-  - WinDbg
+categories: [Windows, WinDbg]
 last_modified_at: 2025-03-23
 comments: true
 published: true

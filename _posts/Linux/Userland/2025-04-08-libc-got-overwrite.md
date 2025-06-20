@@ -1,7 +1,7 @@
 ---
 title:  "libc GOT overwrite"
 search: true
-categories: ['Linux', 'Linux-Userland']
+categories: ['Linux', 'Linux Userland']
 last_modified_at: 2025-04-08
 comments: true 
 published: true

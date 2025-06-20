@@ -1,7 +1,7 @@
 ---
-title:  "가상화 기반의 보안 아키텍처"
+title:  "[시스템 아키텍처] 가상화 기반의 보안 아키텍처"
 search: true
-categories: [Windows Internals, 시스템 아키텍처]
+categories: [Windows, Windows Internals]
 last_modified_at: 2025-04-05
 comments: true 
 ---
