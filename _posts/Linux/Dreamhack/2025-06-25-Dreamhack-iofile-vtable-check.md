@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] iofile_vtable_check"
 search: true
-categories: ['Linux', 'Dreamhack Wargame']
+categories: ['Linux', 'Dreamhack-Pwn']
 last_modified_at: 2025-06-25
 comments: true 
 published: true

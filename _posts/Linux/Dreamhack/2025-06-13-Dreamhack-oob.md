@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] oob"
 search: true
-categories: ['Linux', 'Dreamhack Wargame']
+categories: ['Linux', 'Dreamhack-Pwn']
 last_modified_at: 2025-06-13
 comments: true 
 published: true

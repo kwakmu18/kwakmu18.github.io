@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] Broken Dahun's Heart"
 search: true
-categories: ['Linux', 'Dreamhack Wargame']
+categories: ['Linux', 'Dreamhack-Pwn']
 last_modified_at: 2025-06-10
 comments: true 
 published: true

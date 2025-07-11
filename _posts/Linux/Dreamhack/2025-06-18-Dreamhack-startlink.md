@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] startlink"
 search: true
-categories: ['Linux', 'Dreamhack Wargame']
+categories: ['Linux', 'Dreamhack-Pwn']
 last_modified_at: 2025-06-18
 comments: true 
 published: true

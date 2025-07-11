@@ -1,7 +1,7 @@
 ---
 title:  "[Dreamhack] Bunker Rush"
 search: true
-categories: ['Linux', 'Dreamhack Wargame']
+categories: ['Linux', 'Dreamhack-Pwn']
 last_modified_at: 2025-05-06
 comments: true 
 published: true
