@@ -4,7 +4,7 @@ search: true
 categories: ['CTF', '2025 Hacksium Busan']
 last_modified_at: 2025-07-16
 comments: true 
-published: false
+published: true
 ---
 
 ## 카테고리
