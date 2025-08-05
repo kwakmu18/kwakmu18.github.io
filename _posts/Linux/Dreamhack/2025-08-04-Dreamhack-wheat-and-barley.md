@@ -2,7 +2,7 @@
 title:  "[Dreamhack] wheat-and-barley"
 search: true
 categories: ['Linux', 'Dreamhack-Pwn']
-last_modified_at: 2025-06-25
+last_modified_at: 2025-08-04
 comments: true 
 published: true
 ---
@@ -11,8 +11,6 @@ published: true
 <a target="_blank" href="https://dreamhack.io/wargame/challenges/2146">https://dreamhack.io/wargame/challenges/2146</a>
 
 ## 문제 설명
-
-### Description
 You reap what you sow.
 
 ## 문제 분석
