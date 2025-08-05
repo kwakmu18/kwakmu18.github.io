@@ -28,7 +28,7 @@
   <div id="paginated-list" data-current-post-index="{{ current_post_index }}">
     {% for post in category_posts %}
 
-      <div class="post-item d-flex justify-content-between px-md-3 hidden">
+      <div class="post-item d-flex justify-content-between align-items-center px-md-3 hidden">
         {% if post.url == page.url %}<b style="font-weight:900">{% endif %}
         <a href="{{ post.url | relative_url }}">📄 {{ post.title }}</a>
         {% if post.url == page.url %}</b>{% endif %}
