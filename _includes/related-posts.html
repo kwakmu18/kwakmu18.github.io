@@ -9,7 +9,7 @@
     카테고리의 게시물
   </h2>
 
-  {% assign related_posts = site.posts | where_exp: "post", "post.categories contains page.categories[0]" | reverse %}
+  {% assign related_posts = site.posts | where_exp: "post", "post.categories contains page.categories[0]" %}
   {% assign category_posts = "" | split: "" %}
   {% for post in related_posts %}
     {% if page.categories == post.categories %}
