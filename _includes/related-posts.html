@@ -17,7 +17,6 @@
     {% endif %}
   {% endfor %}
 
-  <!-- [변경사항 2] 현재 보고 있는 글의 인덱스를 찾습니다. -->
   {% assign current_post_index = -1 %}
   {% for post in category_posts %}
     {% if post.url == page.url %}
@@ -26,10 +25,9 @@
   {% endfor %}
 
 
-  <!-- 게시물 목록을 감싸는 컨테이너. data-current-post-index 속성으로 현재 글의 인덱스를 전달합니다. -->
   <div id="paginated-list" data-current-post-index="{{ current_post_index }}">
     {% for post in category_posts %}
-      <!-- 각 게시물 항목. 기본적으로는 보이지 않도록 'hidden' 클래스를 추가합니다. -->
+
       <div class="post-item d-flex justify-content-between px-md-3 hidden">
         {% if post.url == page.url %}<b style="font-weight:900">{% endif %}
         <a href="{{ post.url | relative_url }}">📄 {{ post.title }}</a>
@@ -42,10 +40,8 @@
     {% endfor %}
   </div>
 
-  <!-- 페이지 번호를 표시할 컨테이너 -->
   <nav class="mt-4">
     <ul id="pagination-container" class="pagination justify-content-center">
-      <!-- 페이지 번호는 JavaScript로 생성됩니다. -->
     </ul>
   </nav>
 
@@ -56,7 +52,7 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      const postsPerPage = 10; // 한 페이지에 보여줄 게시물 수
+      const postsPerPage = 10;
       const listContainer = document.getElementById('paginated-list');
       const postItems = Array.from(listContainer.querySelectorAll('.post-item'));
       const paginationContainer = document.getElementById('pagination-container');
@@ -83,9 +79,9 @@
       }
 
       function renderPagination() {
-        paginationContainer.innerHTML = ''; // 페이지 번호 초기화
+        paginationContainer.innerHTML = '';
 
-        // '이전' 버튼
+
         const prevLi = document.createElement('li');
         prevLi.className = `page-item ${currentPage === 1 ? 'disabled' : ''}`;
         const prevA = document.createElement('a');
@@ -100,7 +96,7 @@
         prevLi.appendChild(prevA);
         paginationContainer.appendChild(prevLi);
 
-        // 페이지 번호 버튼
+        
         for (let i = 1; i <= totalPages; i++) {
           const pageLi = document.createElement('li');
           pageLi.className = `page-item ${i === currentPage ? 'active' : ''}`;
@@ -116,7 +112,7 @@
           paginationContainer.appendChild(pageLi);
         }
 
-        // '다음' 버튼
+       
         const nextLi = document.createElement('li');
         nextLi.className = `page-item ${currentPage === totalPages ? 'disabled' : ''}`;
         const nextA = document.createElement('a');
@@ -131,22 +127,22 @@
         paginationContainer.appendChild(nextLi);
       }
 
-      // [변경사항 2] 현재 글이 속한 페이지를 계산하여 첫 페이지로 보여줍니다.
+
       const currentPostIndex = parseInt(listContainer.dataset.currentPostIndex, 10);
       const initialPage = currentPostIndex > -1 ? Math.floor(currentPostIndex / postsPerPage) + 1 : 1;
       showPage(initialPage);
     });
   </script>
 
-  <!-- 페이지네이션 스타일 (Bootstrap 5 기준, 없으면 추가) -->
+
   <style>
-    /* [변경사항 1] 게시물 목록의 행간을 조절합니다. */
+
     .post-item {
       padding-top: 5px;
       padding-bottom: 5px;
     }
     .post-item.hidden {
-      /* !important 를 추가하여 다른 스타일에 덮어쓰여지지 않도록 우선순위를 높입니다. */
+
       display: none !important;
     }
     .pagination { display: flex; padding-left: 0; list-style: none; }
