@@ -64,6 +64,6 @@ unsigned __int64 __fastcall readIndex(void *a1)
 - 따라서, 어떤 값을 입력하더라도 if문을 통과할 수 있다.
 
 인덱스를 자유롭게 입력할 수 있게 되었다면, 힙 청크보다 높은 주소에 위치하는 임의 주소에 8바이트 쓰기를 할 수 있다.<br>
-<a target="_blank" href="http://127.0.0.1:4000/posts/AAWtoACE/#__printf_arginfo_table-__printf_function_table-%EC%A1%B0%EC%9E%91%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9E%84%EC%9D%98-%EC%BD%94%EB%93%9C-%EC%8B%A4%ED%96%89">이전에 공부했던</a> `__printf_function_table`과 `__printf_arginfo_table`을 조작하여 셸을 실행했다.
+<a target="_blank" href="/posts/AAWtoACE/#__printf_arginfo_table-__printf_function_table-%EC%A1%B0%EC%9E%91%EC%9D%84-%ED%86%B5%ED%95%9C-%EC%9E%84%EC%9D%98-%EC%BD%94%EB%93%9C-%EC%8B%A4%ED%96%89">이전에 공부했던</a> `__printf_function_table`과 `__printf_arginfo_table`을 조작하여 셸을 실행했다.
 
 ## 새롭게 알게된 점
