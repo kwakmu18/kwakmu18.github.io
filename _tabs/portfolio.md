@@ -119,8 +119,7 @@ order: 4
 ---
 
 - <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-21374">`CVE-2025-21374`</a>: **Windows CSC Service Information Disclosure Vulnerability**
-- <a target="_blank" href="https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2025-21378">`CVE-2025-21378`</a>: **Windows CSC Service Elevation of Privilege Vulnerability
-**
+- <a target="_blank" href="https://msrc.microsoft.com/update-guide/en-us/vulnerability/CVE-2025-21378">`CVE-2025-21378`</a>: **Windows CSC Service Elevation of Privilege Vulnerability**
 - <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-24069">`CVE-2025-24069`</a>: **Windows Storage Management Provider Information Disclosure Vulnerability**
 - <a target="_blank" href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-33055">`CVE-2025-33055`</a>: **Windows Storage Management Provider Information Disclosure Vulnerability**
 
